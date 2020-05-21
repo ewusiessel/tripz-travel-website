@@ -28,4 +28,8 @@
 
 /* end of navigation bar */
 
+/* navigation logo */
 
+.navbar-brand img {
+    width: 150px;
+}
