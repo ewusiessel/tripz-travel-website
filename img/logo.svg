@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 493 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.313634,0,0,0.313634,0,0)">
+        <circle cx="256" cy="256" r="256" style="fill:url(#_Linear1);"/>
+    </g>
+    <g transform="matrix(0.313634,0,0,0.313634,0,0)">
+        <path d="M321.537,140.586C287.646,140.586 264.881,169.135 264.881,211.63C264.881,234.317 269.339,249.823 273.649,264.809C273.704,265.002 273.757,265.206 273.813,265.399C289.29,214.43 319.647,188.475 321.356,187.045C324.313,184.599 328.493,184.287 331.754,186.342C333.835,187.642 367.635,209.346 389.208,252.027L389.208,215.004C389.207,174.668 358.221,140.586 321.537,140.586ZM327.911,205.395C315.345,218.612 282.641,259.493 282.641,327.076L282.641,353.718C282.641,383.1 306.542,407.001 335.924,407.001C365.306,407.001 389.207,383.1 389.207,353.718L389.207,327.076C389.207,258.53 343.972,217.718 327.911,205.395ZM122.793,291.554L122.793,318.195C122.793,347.577 146.694,371.478 176.076,371.478C205.458,371.478 229.359,347.577 229.359,318.195L229.359,291.554C229.359,223.65 196.708,183.002 184.133,169.864C168.08,182.248 122.793,223.251 122.793,291.554ZM190.463,105.064C153.779,105.064 122.793,139.146 122.793,179.481L122.793,216.504C144.366,173.823 178.166,152.119 180.247,150.819C183.508,148.781 187.688,149.059 190.645,151.521C192.353,152.952 222.711,178.907 238.188,229.875C238.243,229.682 238.296,229.478 238.352,229.285C242.662,214.299 247.12,198.793 247.12,176.107C247.12,133.614 224.355,105.064 190.463,105.064Z" style="fill:url(#_Linear2);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-310.413,-223.048)">
+        <text x="471.562px" y="340.246px" style="font-family:'Shrikhand-Regular', 'Shrikhand';font-style:italic;font-size:114px;fill:rgb(202,255,234);">tripz</text>
+    </g>
+    <g transform="matrix(10.6942,0,0,10.5375,-1253.91,-5405.85)">
+        <text x="160.708px" y="519.055px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.898px;fill:rgb(202,255,234);">TM</text>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.1351e-14,-512,512,3.1351e-14,256,512)"><stop offset="0" style="stop-color:rgb(195,255,232);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(240,255,244);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(240,255,244);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.84882e-14,301.936,-301.936,1.84882e-14,256,105.064)"><stop offset="0" style="stop-color:rgb(0,181,156);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(156,255,172);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
