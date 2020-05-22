@@ -33,3 +33,25 @@
 .navbar-brand img {
     width: 150px;
 }
+
+
+.fa-bars {
+    color: #fff;
+    font-size: 40px !important;
+}
+
+
+.navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+
+.active-home {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
