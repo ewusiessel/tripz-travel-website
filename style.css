@@ -64,3 +64,42 @@ div.container-fluid {
 }
 
 
+/* search box */
+
+.search-container {
+    position: absolute;
+    background: #0B929D;
+}
+
+.search-box {
+    padding: 50px;
+    position: relative;
+    display: flex;    
+}
+
+.search {
+    width: 50%;
+    border: 3px solid rgb(250, 121, 16);
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    outline: none; 
+}
+
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(250, 121, 16);
+    background:rgb(250, 121, 16);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+   
+    
+
+}
+
+
+
