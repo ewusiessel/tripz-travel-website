@@ -66,6 +66,62 @@ div.container-fluid {
 
 /* search box */
 
+.container-fluid {
+    background: #0B929D;
+    position: relative;
+    align-content: center !important;
+}
+
+.search-box{
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 50px 10px 50px; 
+}
+
+
+.search {                      
+    position: relative;
+    width: 100%;
+    border: 3px solid orange;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+    border-right: none; 
+    flex-wrap: initial;  
+}
+
+.search-btn {
+    width: 50px;
+    height: 41px;
+    font-size: 20px;
+    color: #fff;
+    background-color: orange;
+    border: 1px solid orange;
+    text-align: center;
+    cursor: pointer;
+    outline: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .search-container {
     position: absolute;
     background: #0B929D;
@@ -74,7 +130,8 @@ div.container-fluid {
 .search-box {
     padding: 50px;
     position: relative;
-    display: flex;    
+    text-align: center;
+
 }
 
 .search {
@@ -83,23 +140,22 @@ div.container-fluid {
     border-right: none;
     padding: 5px;
     height: 40px;
-    outline: none; 
+    outline: none;
 }
 
 
-.search-btn{
+.search-btn {
     width: 40px;
     height: 40px;
     border: 1px solid rgb(250, 121, 16);
-    background:rgb(250, 121, 16);
+    background: rgb(250, 121, 16);
     text-align: center;
     color: #fff;
     cursor: pointer;
     font-size: 20px;
-   
-    
+
+
 
 }
 
-
-
+*/
