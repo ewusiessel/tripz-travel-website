@@ -120,42 +120,6 @@ input.search::placeholder {
     font-weight: 600;
     margin: 70px;
 
-<<<<<<< HEAD
-}
-
-.footer input{
-    width: 60%;
-    background: transparent;
-    outline: none;
-    border: 0;
-    border-bottom: 1px solid #fff;
-    padding: 10px;
-    color: #fff;
-    margin-bottom: 30px;
-    text-align: center;
-
-}
-
-input.subscribe::placeholder {
-    color:#fff;
-    font-size: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-/* 
-.search-container {
-    position: absolute;
-    background: #0B929D;
-=======
->>>>>>> styled separate paceholders  in css file and finished footer
 }
 
 .footer input{
@@ -190,7 +154,7 @@ input.subscribe::placeholder {
 
 /* footer icons */
 
-.footer-icons li {
+.footericons li {
     display: inline-block;
     margin-top: 20px;
     padding: 5px;
