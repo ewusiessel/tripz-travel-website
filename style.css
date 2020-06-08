@@ -104,13 +104,41 @@ div.container-fluid {
     outline: 0 !important;
 }
 
+input.search::placeholder {
+    color: rgb(167, 167, 167);
+    font-size: 15px;
+}
 
+/* footer */
+.footer {
+    background: #0B929D;
+    padding-top: 5px;
+}
 
+.footer h2 {
+    color: #fff;
+    font-weight: 600;
+    margin: 70px;
 
+}
 
+.footer input{
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
 
+}
 
-
+input.subscribe::placeholder {
+    color:#fff;
+    font-size: 15px;
+}
 
 
 
