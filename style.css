@@ -120,6 +120,7 @@ input.search::placeholder {
     font-weight: 600;
     margin: 70px;
 
+<<<<<<< HEAD
 }
 
 .footer input{
@@ -153,37 +154,49 @@ input.subscribe::placeholder {
 .search-container {
     position: absolute;
     background: #0B929D;
+=======
+>>>>>>> styled separate paceholders  in css file and finished footer
 }
 
-.search-box {
-    padding: 50px;
-    position: relative;
-    text-align: center;
-
-}
-
-.search {
-    width: 50%;
-    border: 3px solid rgb(250, 121, 16);
-    border-right: none;
-    padding: 5px;
-    height: 40px;
+.footer input{
+    width: 60%;
+    background: transparent;
     outline: none;
-}
-
-
-.search-btn {
-    width: 40px;
-    height: 40px;
-    border: 1px solid rgb(250, 121, 16);
-    background: rgb(250, 121, 16);
-    text-align: center;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
     color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-
-
+    margin-bottom: 30px;
+    text-align: center;
 
 }
 
-*/
+input.subscribe::placeholder {
+    color:#fff;
+    font-size: 15px;
+}
+
+
+.footer button {
+    padding: 6px;
+    width: 180px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 20px;
+    background: transparent;
+}
+
+/* footer icons */
+
+.footer-icons li {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+.footer-icons li a {
+    color: #fff;
+}
