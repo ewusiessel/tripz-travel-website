@@ -77,7 +77,8 @@ div.container-fluid {
     width: 100%;
     position: relative;
     text-align: center;
-    padding: 50px 10px 50px; 
+    padding: 50px 10px 50px;
+    margin-top: 80px; 
 }
 
 
@@ -177,6 +178,7 @@ input.subscribe::placeholder {
 
 .service {
     margin: 75px;
+    background-color: #fff;
 }
 
 .service-box h6 {
