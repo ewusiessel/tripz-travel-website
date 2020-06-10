@@ -152,9 +152,18 @@ input.subscribe::placeholder {
     background: transparent;
 }
 
+.footer small {
+    color: #fff;
+    font-size: 12px;
+    padding: 20px;
+    padding-bottom: 60px;
+    display: block;
+    color: #fff;
+}
+
 /* footer icons */
 
-.footericons li {
+.footer-icons li {
     display: inline-block;
     margin-top: 20px;
     padding: 5px;
