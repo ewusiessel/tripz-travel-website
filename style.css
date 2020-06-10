@@ -173,3 +173,29 @@ input.subscribe::placeholder {
 .footer-icons li a {
     color: #fff;
 }
+
+
+.service {
+    margin: 75px;
+}
+
+.service-box h6 {
+    margin-bottom: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.service-box img {
+    width: 60px;
+    margin-top: 65px;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-box h6 {
+    margin-bottom: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
