@@ -176,6 +176,22 @@ input.subscribe::placeholder {
 }
 
 
+/* service section */
+
+.social-icons-box {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.social-icons-list {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
 .service {
     margin: 75px;
     background-color: #fff;
@@ -185,10 +201,11 @@ input.subscribe::placeholder {
     margin-bottom: 40px;
     font-weight: bolder;
     text-align: center;
+    color: #0B929D;
 }
 
 .service-box img {
-    width: 60px;
+    width: 80px;
     margin-top: 65px;
     margin-bottom: 25px;
     display: block;
@@ -201,3 +218,26 @@ input.subscribe::placeholder {
     font-weight: bolder;
     text-align: center;
 }
+
+.service-box img {
+    width: 150px;
+    height: 150px;
+    background:#0B929D;
+    margin: 10% auto;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+
+}
+
+
+.circle-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+
