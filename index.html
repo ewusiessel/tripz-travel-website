@@ -80,6 +80,8 @@
     </div>
 </div> 
 
+<div id="map"></div>
+
 <!-- services section -->
 <div class="container-fluid service">
     <div class="container">
@@ -108,6 +110,7 @@
 
 
 
+
 <!-- footer -->
 <div class="footer text-center">
     <div class="container"></div>
@@ -127,6 +130,21 @@
       <small>Copyright &copy 2020, Designed by ewusiessel</small>
   </form>
 </div>
-</body>
-</html>
 
+<!-- map marker -->
+
+<script>
+    function initMap() {
+        let uluru = {lat: 51.509865, lng: -0.118092};
+        let map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center:uluru}
+        );
+        let marker = new google.maps.Marker({position: uluru, map: map})
+    }
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkTMXcwC8GYGDAB6SHl1Qfk49z7McsA1M&callback=initMap">
+</script>
+</body>
+
+</html>

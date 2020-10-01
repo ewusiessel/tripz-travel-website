@@ -241,3 +241,8 @@ input.subscribe::placeholder {
     padding: 30px;
 }
 
+/* google map */
+#map{
+    height: 400px;
+    width: 100%;
+}
