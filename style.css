@@ -5,7 +5,6 @@
 }
 
 /* navigation bar */
-
 .header {
     background: #0B929D;
 }
@@ -26,10 +25,8 @@
     display: unset !important;
 }
 
-/* end of navigation bar */
 
 /* navigation logo */
-
 .navbar-brand img {
     width: 150px;
 }
@@ -55,17 +52,14 @@
     border-bottom: 2px solid #fff;
 }
 
-/* navigation logo */
 
 /* slider images */
-
 div.container-fluid {  
     padding: 0px !important;
 }
 
 
 /* search box */
-
 .container-fluid {
     background: #0B929D;
     position: relative;
@@ -77,8 +71,7 @@ div.container-fluid {
     width: 100%;
     position: relative;
     text-align: center;
-    padding: 50px 10px 50px;
-    margin-top: 80px; 
+    padding: 50px 70px 50px; 
 }
 
 
@@ -163,7 +156,6 @@ input.subscribe::placeholder {
 }
 
 /* footer icons */
-
 .footer-icons li {
     display: inline-block;
     margin-top: 20px;
@@ -177,7 +169,6 @@ input.subscribe::placeholder {
 
 
 /* service section */
-
 .social-icons-box {
     width: 100%;
     height: auto;
@@ -220,8 +211,8 @@ input.subscribe::placeholder {
 }
 
 .service-box img {
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
     background:#0B929D;
     margin: 10% auto;
     border-radius: 50%;
@@ -229,7 +220,6 @@ input.subscribe::placeholder {
     position: relative;
 
 }
-
 
 .circle-icon {
     width: 100px;
@@ -240,6 +230,7 @@ input.subscribe::placeholder {
     vertical-align: middle;
     padding: 30px;
 }
+
 
 /* google map */
 #map{

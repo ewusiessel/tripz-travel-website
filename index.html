@@ -132,12 +132,11 @@
 </div>
 
 <!-- map marker -->
-
 <script>
     function initMap() {
         let uluru = {lat: 51.509865, lng: -0.118092};
         let map = new google.maps.Map(
-            document.getElementById('map'), {zoom: 4, center:uluru}
+            document.getElementById('map'), {zoom: 13, center:uluru}
         );
         let marker = new google.maps.Marker({position: uluru, map: map})
     }
