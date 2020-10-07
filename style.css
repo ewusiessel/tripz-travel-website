@@ -252,7 +252,7 @@ input.subscribe::placeholder {
 
 .city-cards img {
     border-radius: 15px;
-    
+    box-shadow: 10px 11px 30px -12px rgba(0, 0, 0, 0.75);   
 }
 
 .city-image-text {
