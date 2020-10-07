@@ -185,7 +185,7 @@ input.subscribe::placeholder {
 }
 
 .service {
-    background-color: #fff;
+    background-color: rgb(242, 242, 242);
 }
 
 .service-box h6 {
@@ -274,4 +274,8 @@ background-color: #fff;
 div .white-background {
     background-color: #fff;
     z-index: 20;
+}
+
+.destinations {
+    padding: 50px; 
 }
