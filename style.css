@@ -64,6 +64,7 @@ div.container-fluid {
     background: #0B929D;
     position: relative;
     align-content: center !important;
+    
 }
 
 .search-box{
@@ -106,7 +107,7 @@ input.search::placeholder {
 /* footer */
 .footer {
     background: #000202;
-    padding-top: 5px;
+    padding-top: 30px;
 }
 
 .footer h2 {
@@ -184,7 +185,6 @@ input.subscribe::placeholder {
 }
 
 .service {
-    margin: 75px;
     background-color: #fff;
 }
 
@@ -247,11 +247,12 @@ input.subscribe::placeholder {
 
 /* destination section */
 .card-image {
-    width: 100%;  
+    width: 100%; 
 }
 
 .city-cards img {
     border-radius: 15px;
+    
 }
 
 .city-image-text {
@@ -266,3 +267,11 @@ div .col-sm-6 {
 padding: 15px !important;
 }
 
+div .city-cards {
+background-color: #fff; 
+}
+
+div .white-background {
+    background-color: #fff;
+    z-index: 20;
+}
