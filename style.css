@@ -279,6 +279,8 @@ div .white-background {
 .destinations {
     padding: 50px; 
 }
+
+/* hover effect copied from Hover.css */
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
