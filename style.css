@@ -185,7 +185,8 @@ input.subscribe::placeholder {
 }
 
 .service {
-    background-color: rgb(242, 242, 242);
+    background-color: #f1f1f1;
+    
 }
 
 .service-box h6 {
@@ -299,3 +300,6 @@ div .white-background {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+
+/* testimonials section */
