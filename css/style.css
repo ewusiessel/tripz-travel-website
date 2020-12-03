@@ -4,7 +4,7 @@
     font-family: 'Montserrat',sans-serif;
 }
 
-/* navigation bar */
+/* navigation bar  */
 .header {
     background: #0B929D;
 }
@@ -53,120 +53,89 @@
 }
 
 
-/* slider images */
+/* carousel slider images */
+
 div.container-fluid {  
     padding: 0px !important;
 }
 
 
 /* search box */
-.container-fluid {
-    background: #0B929D;
+
+.search_area {
+    background: #0B929D;      
+}
+
+.search_wrap_1 {
+    padding: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.search_area .input {
+    border: 0;
+    outline: none;
+    color:black;
+}
+
+
+.search_wrap .search_box {
     position: relative;
-    align-content: center !important;
+    width: 500px;
+    height: 60px;
     
 }
 
-.search-box{
-    display: flex;
-    width: 100%;
-    position: relative;
-    text-align: center;
-    padding: 50px 70px 50px; 
+.search_wrap .search_box .input {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+padding: 10px 20px;
+border-radius: 3px;
+font-size: 18px;
+}
+
+.search_wrap .search_box .btn{
+position: absolute;
+top: 0;
+right: 0;
+width: 60px;
+height: 100%;
+background:orange;
+z-index: 1;
+cursor: pointer;
 }
 
 
-.search {                      
-    position: relative;
-    width: 100%;
-    border: 3px solid orange;
-    padding: 5px;
-    font-size: 17px;
-    outline: none;
-    border-right: none; 
-    flex-wrap: initial;  
+.search_wrap .search_box .btn:hover {
+    background: #13330b;
 }
 
-.search-btn {
-    width: 50px;
-    height: 41px;
+.search_wrap .search_box .btn.btn_common .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
     font-size: 20px;
-    color: #fff;
-    background-color: orange;
-    border: 1px solid orange;
-    text-align: center;
-    cursor: pointer;
-    outline: 0 !important;
 }
 
-input.search::placeholder {
-    color: rgb(167, 167, 167);
-    font-size: 15px;
+.search_wrap.search_wrap_1 .search_box .btn{
+    right: 0;
+    border-radius: 50%;
 }
 
-/* footer */
-.footer {
-    background: #000202;
-    padding-top: 30px;
+.search_wrap.search_wrap_1 .search_box .input {
+    border-radius: 50px;
+    border: 2px solid orange;
 }
 
-.footer h2 {
-    color: #fff;
-    font-weight: 600;
-    margin: 70px;
-
-}
-
-.footer input{
-    width: 60%;
-    background: transparent;
-    outline: none;
-    border: 0;
-    border-bottom: 1px solid #fff;
-    padding: 10px;
-    color: #fff;
-    margin-bottom: 30px;
-    text-align: center;
-
-}
-
-input.subscribe::placeholder {
-    color:#fff;
-    font-size: 15px;
-}
-
-
-.footer button {
-    padding: 6px;
-    width: 180px;
-    margin: auto;
-    display: block;
-    color: #fff;
-    border: 2px solid #fff;
-    font-size: 20px;
-    background: transparent;
-}
-
-.footer small {
-    color: #fff;
-    font-size: 12px;
-    padding: 20px;
-    padding-bottom: 60px;
-    display: block;
-    color: #fff;
-}
-
-/* footer icons */
-.footer-icons li {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 5px;
-    font-size: 35px;
-}
-
-.footer-icons li a {
-    color: #fff;
-}
 
 
 /* service section */
@@ -185,7 +154,7 @@ input.subscribe::placeholder {
 }
 
 .service {
-    background-color: #f1f1f1;
+    background-color: #F4F4F8;
     
 }
 
@@ -304,48 +273,143 @@ div .white-background {
 
 /* testimonials section */
 
-.testimonials {
-    margin-top: 5%;
+.testimonial-section {
+    background: #2B2D42;
+    padding: 40px 0;
+
+
 }
 
-.img-text {
-    width: 100%;
-    height: 300px;
-    display: block;
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.testimonial-section h1 {
     text-align: center;
-    padding: 40% 5%;
-    background: #262626;
-    color: #fff;
-    border-radius: 15px;
+    color: #F8F7F9;
+    font-size: 35px;
 }
 
-.img-text h2 {
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.img-text p {
-    font-size: 14px;
-}
-
-.single-box {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.img-area {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border: 5px solid #ffff;
+.testimonial {
+    background: #F4F4F8;
+    padding: 40px;
     overflow: hidden;
-    top: 15px;
-    left: 125px;
-    border-radius: 50%;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.img-area img {
+
+.test-info {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.test-pic {
+    width: 100px !important;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.test-name span {
+    display: block;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    color: #0B929D;
+}
+
+.testimonial p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 20px;
+
+}
+
+.owl-theme .owl-dot {
+    outline: none;
+}
+
+
+/* footer */
+.footer {
+    background: #000202;
+    display: flex;
     width: 100%;
+    position: relative;
+    text-align: center;
+    overflow: hidden !important;
+}
+
+.footer h2 {
+    color: #fff;
+    font-weight: 600;
+    margin: 70px;
+    text-align: center;
+
+}
+
+.footer input {
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    max-width: fit-content;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+input.subscribe::placeholder {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+
+.footer button {
+    padding: 6px;
+    width: 180px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 20px;
+    background: transparent;
+}
+
+.footer small {
+    color: #fff;
+    font-size: 12px;
+    padding: 20px;
+    padding-bottom: 60px;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+/* footer icons */
+.footer-icons li {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+.footer-icons ul {
+    text-align: center !important;
+
+}
+
+.footer-icons li a {
+    color: #fff;
 
 }
