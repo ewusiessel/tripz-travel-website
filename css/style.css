@@ -71,8 +71,6 @@ div.container-fluid {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 
@@ -412,4 +410,42 @@ input.subscribe::placeholder {
 .footer-icons li a {
     color: #fff;
 
+}
+
+
+/* gallery */
+
+.image-grid {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-image {
+    display: block;
+    flex-basis: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    
+
+}
+
+@media only screen and (min-width: 640px) {
+    .grid-image {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .grid-image {
+        flex-basis: 33.333%;
+    }
+}
+
+@media only screen and (min-width: 91280px) {
+    .grid-image {
+        flex-basis: 25%;
+    }
 }
