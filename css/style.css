@@ -60,6 +60,33 @@ div.container-fluid {
 }
 
 
+.carousel-slider {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    margin-bottom: 40px;
+    z-index: 50;
+    color: white;
+    width: 500px;
+
+}
+
+.express-btn {
+    font-size: smaller;
+    text-decoration: none !important;
+    padding: 15px;
+    background: orange;
+    color: #fff !important;
+    margin-right: 5px;
+    border-radius: 50px;
+
+}
+
+
 /* search box */
 
 .search_area {
@@ -333,6 +360,54 @@ div .white-background {
 }
 
 
+
+/* gallery */
+
+.image-grid {
+    /* display: flex; */
+    width: 50%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-image {
+    /* display: block;
+    flex-basis: 50%; */
+    padding: 5px;
+    /* box-sizing: border-box; */
+    
+}
+
+.gallery-grid {
+    margin: 20px;
+    justify-content: center;
+   
+}
+
+
+
+
+@media only screen and (min-width: 640px) {
+    .grid-image {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .grid-image {
+        flex-basis: 33.333%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .grid-image {
+        flex-basis: 25%;
+    }
+}
+
+
+
 /* footer */
 .footer {
     background: #000202;
@@ -352,7 +427,7 @@ div .white-background {
 }
 
 .footer input {
-    width: 60%;
+    width: 20%;
     background: transparent;
     outline: none;
     border: 0;
@@ -412,40 +487,14 @@ input.subscribe::placeholder {
 
 }
 
-
-/* gallery */
-
-.image-grid {
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: center;
+.email {
+    margin-left: 2px;
+    color: white;
+    font-size: 20px;
 }
 
-.grid-image {
-    display: block;
-    flex-basis: 100%;
-    padding: 5px;
-    box-sizing: border-box;
-    
 
-}
+/* ************************* */
 
-@media only screen and (min-width: 640px) {
-    .grid-image {
-        flex-basis: 50%;
-    }
-}
 
-@media only screen and (min-width: 960px) {
-    .grid-image {
-        flex-basis: 33.333%;
-    }
-}
 
-@media only screen and (min-width: 91280px) {
-    .grid-image {
-        flex-basis: 25%;
-    }
-}
