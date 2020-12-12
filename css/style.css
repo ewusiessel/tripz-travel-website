@@ -86,6 +86,21 @@ div.container-fluid {
 
 }
 
+.banner-text a:hover {
+    background: rgba(255, 165, 0, 80%);
+}
+
+.carousel-item .d-block {
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel-item .d-block {
+        width: auto;
+       }
+}
+
+
 
 /* search box */
 
@@ -132,14 +147,14 @@ top: 0;
 right: 0;
 width: 60px;
 height: 100%;
-background:orange;
+background:#ffa500;
 z-index: 1;
 cursor: pointer;
 }
 
 
 .search_wrap .search_box .btn:hover {
-    background: #13330b;
+    background: rgba(255, 165, 0, 70%);
 }
 
 .search_wrap .search_box .btn.btn_common .fas{
@@ -495,6 +510,4 @@ input.subscribe::placeholder {
 
 
 /* ************************* */
-
-
 
