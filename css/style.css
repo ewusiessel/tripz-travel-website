@@ -55,16 +55,19 @@
 
 /* carousel slider images */
 
+
+
+
 div.container-fluid {  
     padding: 0px !important;
 }
 
-
-.carousel-slider {
+.d-block {
     position: relative;
+    
 }
 
-.banner-text {
+/* .banner-text {
     position: absolute;
     left: 15%;
     top: 30%;
@@ -73,16 +76,36 @@ div.container-fluid {
     color: white;
     width: 500px;
 
+} */
+
+
+.banner-text {
+    position: absolute;
+    margin: 0 20%;
+    width: 500px;
+    z-index: 50;
+    color: rgb(255, 255, 255);
+    top: 30%;
+}
+
+.banner-text p {
+    margin-bottom: 30px;
+}
+
+
+.orange-border {
+    border-bottom: 3px solid #ffa500;
+    
 }
 
 .express-btn {
     font-size: smaller;
-    text-decoration: none !important;
+    text-decoration: none;
     padding: 15px;
     background: orange;
-    color: #fff !important;
-    margin-right: 5px;
+    color: #fff;
     border-radius: 50px;
+    
 
 }
 
@@ -97,8 +120,24 @@ div.container-fluid {
 @media only screen and (max-width: 480px) {
     .carousel-item .d-block {
         width: auto;
+        height: max-content;
        }
 }
+
+@media only screen and (max-width: 480px) {
+    .banner-text {
+        width: auto;
+        text-align: center;
+        margin-top: -100px;
+
+
+    }
+}
+
+
+
+
+
 
 
 
