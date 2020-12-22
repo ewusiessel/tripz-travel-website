@@ -3,13 +3,22 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
+	.st0{fill:url(#SVGID_1_);}
 </style>
-<g>
-	<g>
-		<path class="st0" d="M385.9,118.4c-10.9-10.9-28.7-10.7-39.4,0.4l-58.6,61.1l-143-47.3l-30,30l119.2,73.4l-60.3,62.8l-38.7-6.3
-			L108,319.5l56.8,19.9l19.9,56.8l27.2-27.2l-6.3-38.7l62.8-60.3l73.4,119.2l30-30l-47.3-143l61.1-58.6
-			C396.8,147,396.9,129.3,385.9,118.4z"/>
-	</g>
-</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="31.764" y1="255.8898" x2="480.236" y2="255.8898" gradientTransform="matrix(1 0 0 -1 0 511.8898)">
+	<stop  offset="0" style="stop-color:#55BDC4"/>
+	<stop  offset="0.1699" style="stop-color:#54B9C2"/>
+	<stop  offset="0.3371" style="stop-color:#51ADBD"/>
+	<stop  offset="0.5034" style="stop-color:#4B99B4"/>
+	<stop  offset="0.6691" style="stop-color:#437EA7"/>
+	<stop  offset="0.8343" style="stop-color:#395A96"/>
+	<stop  offset="0.9973" style="stop-color:#2D2F82"/>
+	<stop  offset="1" style="stop-color:#2D2E82"/>
+</linearGradient>
+<path class="st0" d="M471.4,41.1c-10.7-10.7-29.1-11.7-53.3-3.1c-16.6,6-34.1,15.9-42.5,24.3l-67.1,67.1L87.8,94.8l-56.1,56.1
+	l183.5,71.8l-58.9,58.9l-83.6,4.9l-40,40.1l90.7,43.8L98,395.9l18.6,18.6l25.4-25.4l43.8,90.7l40.1-40.1l4.9-83.6l59.9-59.9
+	l71.8,183.5l56.1-56.1L384,202.8l66-66c8.3-8.3,18.3-25.8,24.3-42.5C483.1,70.1,482.1,51.8,471.4,41.1z M78.8,141.1L97,122.9
+	l188.6,29.6l-50,50L78.8,141.1z M390.6,414.4l-18.2,18.2L311,275.9l50-50L390.6,414.4z M449.7,85.5c-5,14-13.3,27.9-18.1,32.7
+	L205.1,344.6l-4.9,83.6l-6.8,6.8l-31.7-65.6l22.9-22.9L166,328l-22.9,22.9l-65.7-31.7l6.8-6.8l83.6-4.9L394.3,80.9
+	c4.8-4.8,18.7-13.1,32.7-18.1c15.9-5.7,24.3-4.6,25.8-3.2C454.2,61,455.3,69.5,449.7,85.5z"/>
 </svg>
