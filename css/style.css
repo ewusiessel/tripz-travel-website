@@ -1,3 +1,15 @@
+/*
+colour palette
+https: //coolors.co/0b929d-313e50-a2999e-eaefb1-f96900
+#0b929d - viridian green
+#313E50 - charcoal
+#A2999E - spanish grey
+#EAEFB1 - pale spring bud
+#F96900 - saftey blaze orange 
+*/
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -98,7 +110,7 @@ div.container-fluid {
 .express-btn {
     font-size: smaller;
     padding: 15px;
-    background: orange;
+    background:#F96900;
     color: #fff;
     border-radius: 50px;
 
@@ -109,13 +121,13 @@ div.container-fluid {
 }
 
 .orange-border {
-    border-bottom: 3px solid #ffa500;
+    border-bottom: 3px solid #F96900;
 
 }
 
 .banner-text a:hover {
-    background: rgba(255, 165, 0, 80%);
-    color: #20d3d3;
+    background:#fff;
+    color: #F96900;
 }
 
 .carousel-item .d-block {
@@ -141,11 +153,6 @@ div.container-fluid {
 
 
 
-
-
-
-
-
 /* search box */
 
 .search_area {
@@ -163,7 +170,7 @@ div.container-fluid {
 .search_area .input {
     border: 0;
     outline: none;
-    color:black;
+    color:#A2999E;
 }
 
 
@@ -191,15 +198,12 @@ top: 0;
 right: 0;
 width: 60px;
 height: 100%;
-background:#ffa500;
+background: #F96900;
 z-index: 1;
 cursor: pointer;
 }
 
 
-.search_wrap .search_box .btn:hover {
-    background: #20d3d3;
-}
 
 .search_wrap .search_box .btn.btn_common .fas{
     position: absolute;
@@ -210,6 +214,7 @@ cursor: pointer;
     font-size: 20px;
 }
 
+
 .search_wrap.search_wrap_1 .search_box .btn{
     right: 0;
     border-radius: 50%;
@@ -217,12 +222,22 @@ cursor: pointer;
 
 .search_wrap.search_wrap_1 .search_box .input {
     border-radius: 50px;
-    border: 2px solid orange;
+    border: 2px solid #F96900;
 }
 
 
 
 /* service section */
+
+
+.service h2 {
+    color: #F96900;
+}
+
+.service h4 {
+    color: #313E50;
+}
+
 .social-icons-box {
     width: 100%;
     height: auto;
@@ -264,10 +279,10 @@ cursor: pointer;
     text-align: center;
 }
 
+
 .service-box img {
     width: 150px;
     height: 90px;
-    
     margin: 10% auto;
     border-radius: 50%;
     text-align: center;
@@ -306,6 +321,16 @@ cursor: pointer;
 
 .city-cards img {
     border-radius: 10px;   
+}
+
+
+.city-cards h2 {
+    color: #F96900;
+}
+
+.city-cards h4 {
+    color: #313E50;
+    margin-bottom: 0;
 }
 
 
@@ -358,7 +383,7 @@ div .white-background {
 /* testimonials section */
 
 .testimonial-section {
-    background: #2B2D42;
+    background: #F4B942;
     padding: 40px 0;
 
 
@@ -372,7 +397,7 @@ div .white-background {
 
 .testimonial-section h1 {
     text-align: center;
-    color: #F8F7F9;
+    color: #fff;
     font-size: 35px;
     padding-top: 40px;
     
@@ -380,12 +405,13 @@ div .white-background {
 }
 
 .testimonial {
-    background: #F4F4F8;
+    background: #fff;
     padding: 40px;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
 }
+
 
 
 .test-info {
@@ -414,8 +440,20 @@ div .white-background {
     font-size: 12px;
     line-height: 22px;
     margin-top: 20px;
+    color: #A2999E;
 
 }
+
+.testimonial-section h1 {
+    margin-bottom: 0px;
+
+}
+
+
+.testimonial-section h4 {
+    color: #F96900;
+}
+
 
 .owl-theme .owl-dot {
     outline: none;
@@ -447,6 +485,9 @@ div .white-background {
    
 }
 
+.gallery h2 {
+    color: #313E50;
+}
 
 
 
@@ -472,7 +513,7 @@ div .white-background {
 
 /* footer */
 .footer {
-    background: #000202;
+    background: #313E50;
     display: flex;
     width: 100%;
     position: relative;
