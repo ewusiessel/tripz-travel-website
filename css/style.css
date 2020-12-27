@@ -1,10 +1,10 @@
 /*
 colour palette
-https: //coolors.co/0b929d-313e50-a2999e-eaefb1-f96900
+https: //coolors.co/0b929d-313e50-a2999e-f4b942-f96900
 #0b929d - viridian green
 #313E50 - charcoal
 #A2999E - spanish grey
-#EAEFB1 - pale spring bud
+#F4B942 - maximum yellow red
 #F96900 - saftey blaze orange 
 */
 
@@ -460,11 +460,20 @@ div .white-background {
 }
 
 
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #F96900;
+}
+
+.owl-theme .owl-dots
+.owl-dot span {
+    background: #ffffff;
+}
+
 
 /* gallery */
 
 .image-grid {
-    /* display: flex; */
     width: 50%;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -472,11 +481,8 @@ div .white-background {
 }
 
 .grid-image {
-    /* display: block;
-    flex-basis: 50%; */
     padding: 5px;
-    /* box-sizing: border-box; */
-    
+   
 }
 
 .gallery-grid {

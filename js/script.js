@@ -43,7 +43,8 @@ $(".owl-carousel").owlCarousel({
                 var marker = new google.maps.Marker({
                     position: new google.maps.LatLng(51.509865, -0.118092),
                     map: map,
-                    title: 'Snazzy!'
+                    title: 'Snazzy!',
+                  
                 });
             }
 
